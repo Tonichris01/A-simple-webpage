@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #383838;
+}
+
+h1 {
+    margin: 40px;
+}
+
+h2 {
+    margin: 30px;
+}
+
+#header {
+    text-align: center;
+    background-image: url(/img/ferenc-almasi-eYpcLDXHVb0-unsplash.jpg);
+    background-size: cover;
+    height: 400px;
+    /* background-color: #383838; */
+    color: white;
+    padding: 10px;
+}
+
+button {
+    margin-top: 150px;
+    width: 150px;
+    height: 50px;
+    padding: 5px;
+    background-color: #383838;
+    border: 2px solid;
+    border-color: grey;
+    color: white;
+    font-size: medium;
+    margin-bottom: 20px;
+}
+
+#intro {
+    background-color: white;
+    text-align: center;
+    padding: 20px 15px;
+}
+
+.sections {
+    width: 90%;
+    margin: 5%;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 25px;
+    padding: auto 15px;
+}
+
+.img1 {
+    width: 100%;
+    height: 400px;
+    margin: 0%;
+    margin-bottom: 20px;
+}
+
+#firstMiddleSection {
+    background-color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+#secondMiddleSection {
+    background-color: rgb(0, 128, 255);
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+#thirdMiddleSection {
+    background-color: #383838;
+    text-align: center;
+    color: white;
+    padding: 20px 10px;
+}
+
+p {
+    padding: 20px 10px;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 760px) {
+    body {
+        background-color: #dddddd;
+    }
+    #section {
+        background-color: #383838;
+        display: flex;
+    }
+    .sections {
+        width: 31%;
+        margin: 1%;
+    }
+    #secondandThirdMS {
+        display: flex;
+    }
+    #secondMiddleSection {
+        width: 50%;
+    }
+    #thirdMiddleSection {
+        width: 50%;
+    }
+    #footer {
+        display: flex;
+        text-align: center;
+    }
+    #footer>div {
+        width: 50%;
+    }
+}
