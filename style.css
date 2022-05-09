@@ -18,7 +18,7 @@ h2 {
 
 #header {
     text-align: center;
-    background-image: url(/img/ferenc-almasi-eYpcLDXHVb0-unsplash.jpg);
+    background-image: url("https://tonichris01.github.io/A-simple-webpage/img/ferenc-almasi-eYpcLDXHVb0-unsplash.jpg");
     background-size: cover;
     height: 400px;
     /* background-color: #383838; */
